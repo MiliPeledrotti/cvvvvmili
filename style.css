@@ -1,0 +1,150 @@
+*{margin: 0%; padding: 0;}
+body{
+  background-color: #EEF6E6;
+  font-size: medium;
+  font-family: sans-serif;
+}
+h1{
+  background-color: rgb(255, 255, 255);
+  max-width: fit-content;
+}
+
+img{
+  width: 10rem;
+  height: 15rem;
+  border-radius: 140px;
+  margin-top: 8%;
+  margin-left: 3%;
+}
+#contenedor-principal {
+  display: flex;
+ align-items:center;
+ justify-content: space-around;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  float: left;
+}
+
+#contenedor-principal {
+  float: left;
+  margin-right: 10px;
+  width: 200px;
+  height: auto;
+
+}
+
+h1{ color: #000000 ;}
+a{ 
+  text-decoration: none !important;
+}
+
+header {
+
+  background-color: #d8cba4ea;
+  padding: 25px;
+  position:fixed;
+  top: 0;
+  margin-left: 0%;
+  margin-right: 15%;
+  width: 96.4%;
+  justify-content: space-around;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+
+  padding: 5;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-left: 0%;
+}
+
+nav a {
+  margin: 10px;
+  color: #000;
+  font-weight: 545px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+  margin: 10;
+  border-bottom-color: #000;
+  
+}
+
+.estiloinicio {
+  list-style-type: circle;
+}
+.sin-puntos {
+  list-style: none;
+  font-style: arial;
+}
+.circulos{
+  list-style-type: circle;
+  ;
+}
+.datos{
+  margin-top: 10%;
+}
+.estiloprincipal {
+  list-style: circle;
+  margin-left: 3%;
+  margin-top: 7%;
+}
+#contenedor-secundario {
+  display: flex;
+ align-items:center;
+ justify-content: left;
+  width: 100%;
+  padding: 0%;
+  float: left;
+}
+.contenedor {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.contenedor img {
+  margin-right: 10;
+  width: 200px;
+  height: auto;
+}
+
+.contenedor p {
+  margin-left: 10px;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width:768px){
+  .header {
+    position:fixed;
+    top: 0%;
+    width: 100%;
+  }
+
+  .nav-menu ul{
+    display:block;
+    position:static;
+    top:initial;
+    width: 100%;
+    left: initial;
+    height: auto;
+  }
+  .nav-menu ul a{
+    font-size: 100%;
+    justify-content: initial;
+    align-self: initial;
+  }
+}
+
